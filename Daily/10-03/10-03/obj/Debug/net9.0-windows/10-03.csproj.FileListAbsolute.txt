@@ -1,0 +1,15 @@
+C:\.project\Daily\10-03\10-03\bin\Debug\net9.0-windows\10-03.exe
+C:\.project\Daily\10-03\10-03\bin\Debug\net9.0-windows\10-03.deps.json
+C:\.project\Daily\10-03\10-03\bin\Debug\net9.0-windows\10-03.runtimeconfig.json
+C:\.project\Daily\10-03\10-03\bin\Debug\net9.0-windows\10-03.dll
+C:\.project\Daily\10-03\10-03\bin\Debug\net9.0-windows\10-03.pdb
+C:\.project\Daily\10-03\10-03\obj\Debug\net9.0-windows\10-03.GeneratedMSBuildEditorConfig.editorconfig
+C:\.project\Daily\10-03\10-03\obj\Debug\net9.0-windows\10-03.AssemblyInfoInputs.cache
+C:\.project\Daily\10-03\10-03\obj\Debug\net9.0-windows\10-03.AssemblyInfo.cs
+C:\.project\Daily\10-03\10-03\obj\Debug\net9.0-windows\10-03.csproj.CoreCompileInputs.cache
+C:\.project\Daily\10-03\10-03\obj\Debug\net9.0-windows\10-03.sourcelink.json
+C:\.project\Daily\10-03\10-03\obj\Debug\net9.0-windows\10-03.dll
+C:\.project\Daily\10-03\10-03\obj\Debug\net9.0-windows\refint\10-03.dll
+C:\.project\Daily\10-03\10-03\obj\Debug\net9.0-windows\10-03.pdb
+C:\.project\Daily\10-03\10-03\obj\Debug\net9.0-windows\10-03.genruntimeconfig.cache
+C:\.project\Daily\10-03\10-03\obj\Debug\net9.0-windows\ref\10-03.dll

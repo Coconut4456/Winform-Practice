@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Docker-compose</id>
+          </State>
+          <State>
+            <id>EditorConfig</id>
+          </State>
+          <State>
+            <id>Flow 타입 검사기JavaScript 및 TypeScript</id>
+          </State>
+          <State>
+            <id>GitHub 액션</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>HTTP 클라이언트</id>
+          </State>
+          <State>
+            <id>Ini 파일</id>
+          </State>
+          <State>
+            <id>JSON 및 JSON5</id>
+          </State>
+          <State>
+            <id>JavaScript 및 TypeScript</id>
+          </State>
+          <State>
+            <id>Kubernetes</id>
+          </State>
+          <State>
+            <id>Less</id>
+          </State>
+          <State>
+            <id>Markdown</id>
+          </State>
+          <State>
+            <id>MySQL</id>
+          </State>
+          <State>
+            <id>OpenAPI 사양</id>
+          </State>
+          <State>
+            <id>Pug/Jade</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>ReactJavaScript 및 TypeScript</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Sass/SCSS</id>
+          </State>
+          <State>
+            <id>TypeScriptJavaScript 및 TypeScript</id>
+          </State>
+          <State>
+            <id>Vue</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>YAML</id>
+          </State>
+          <State>
+            <id>import 문 및 종속 요소JavaScript 및 TypeScript</id>
+          </State>
+          <State>
+            <id>국제화</id>
+          </State>
+          <State>
+            <id>버전 관리</id>
+          </State>
+          <State>
+            <id>유닛 테스트JavaScript 및 TypeScript</id>
+          </State>
+          <State>
+            <id>유효성 이슈JavaScript 및 TypeScript</id>
+          </State>
+          <State>
+            <id>일반</id>
+          </State>
+          <State>
+            <id>일반JavaScript 및 TypeScript</id>
+          </State>
+          <State>
+            <id>잘못된 요소CSS</id>
+          </State>
+          <State>
+            <id>코드 커버리지</id>
+          </State>
+          <State>
+            <id>코드 품질 도구CSS</id>
+          </State>
+          <State>
+            <id>코드 품질 도구JavaScript 및 TypeScript</id>
+          </State>
+          <State>
+            <id>파일 감시기</id>
+          </State>
+          <State>
+            <id>프로퍼티 파일</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>사용자 정의</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+</project>
