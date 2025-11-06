@@ -14,7 +14,6 @@ public partial class Form1 : Form
     private readonly Timer _stopWatchTimer;
     private readonly Timer _timer;
     private int _currentType;
-    private bool _state;
 
     public Form1()
     {
@@ -27,9 +26,7 @@ public partial class Form1 : Form
         _timer.Tick += Timer_Tick!;
         _timer.Interval = 10;
         _currentType = 1;
-        _state = false;
 
-        TimeReset();
         InitializeUI();
     }
 
@@ -134,6 +131,11 @@ public partial class Form1 : Form
         }
     }
 
+    /// <summary>
+    /// 타이머 TextBox 가이드 표시
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     public void TextBox_FocusHandler(object sender, EventArgs e)
     {
         if (sender is TextBox textBox)
@@ -190,25 +192,20 @@ public partial class Form1 : Form
         }
     }
 
+    /// <summary>
+    /// 타이머 TextBox 숫자만 입력
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     public void TextBox_KeyPress(object sender, KeyPressEventArgs e)
     {
         if (!char.IsDigit(e.KeyChar) && e.KeyChar != (char)Keys.Back)
             e.Handled = true;
     }
 
-    public void TimeReset()
-    {
-        _point = 0;
-        _minute = 0;
-        _second = 0;
-        _hour = 0;
-    }
-
-    public void ViewStopWatchUI()
-    {
-        _timeViewLabel.Text = "0:0:0.0";
-    }
-
+    /// <summary>
+    /// 타이머 UI 표시
+    /// </summary>
     public void ViewTimerUI()
     {
         _timeViewLabel.Text = "  :     :";
@@ -225,6 +222,11 @@ public partial class Form1 : Form
         }
     }
 
+    /// <summary>
+    /// 스톱워치 Timer
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     public void StopWatchTimer_Tick(object sender, EventArgs e)
     {
         _point++;
@@ -250,6 +252,11 @@ public partial class Form1 : Form
         _timeViewLabel.Text = $"{_hour}:{_minute}:{_second}.{_point}";
     }
 
+    /// <summary>
+    /// 타이머 Timer
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     public void Timer_Tick(object sender, EventArgs e)
     {
         _point--;
@@ -280,6 +287,11 @@ public partial class Form1 : Form
         _timeViewLabel.Text = $"{_hour}:{_minute}:{_second}:{_point}";
     }
 
+    /// <summary>
+    /// 시작/중지 버튼
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     public void StartStopButton_Click(object sender, EventArgs e)
     {
         if (_stopWatchTimer.Enabled || _timer.Enabled)
@@ -292,6 +304,9 @@ public partial class Form1 : Form
         }
     }
 
+    /// <summary>
+    /// 시작 버튼 클릭시
+    /// </summary>
     public void Start()
     {
         switch (_currentType)
@@ -314,6 +329,9 @@ public partial class Form1 : Form
         _resetButton.Visible = true;
     }
 
+    /// <summary>
+    /// 중지 버튼 클릭시
+    /// </summary>
     public void Pause()
     {
         switch (_currentType)
@@ -330,6 +348,9 @@ public partial class Form1 : Form
         _startStopButton.Text = "계속";
     }
 
+    /// <summary>
+    /// 계속 버튼 클릭시
+    /// </summary>
     public void ReSume()
     {
         switch (_currentType)
@@ -346,18 +367,24 @@ public partial class Form1 : Form
         _startStopButton.Text = "중지";
     }
 
+    /// <summary>
+    /// 초기화 버튼 클릭시
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     public void ResetButton_Click(object sender, EventArgs e)
     {
         switch (_currentType)
         {
             case 1:
                 _stopWatchTimer.Stop();
-                TimeReset();
-                ViewStopWatchUI();
+                _point = 0;
+                _second = 0;
+                _minute = 0;
+                _hour = 0;
                 break;
             case 2:
                 _timer.Stop();
-                TimeReset();
                 ViewTimerUI();
                 break;
         }
@@ -367,6 +394,11 @@ public partial class Form1 : Form
         _startStopButton.Text = "시작";
     }
 
+    /// <summary>
+    /// 탭 전환시
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     public void TabButtons_Click(object sender, EventArgs e)
     {
         _stopWatchTimer.Stop();
@@ -392,7 +424,6 @@ public partial class Form1 : Form
                         }
                     }
 
-                    ViewStopWatchUI();
                     break;
                 case 2:
                     _currentType = 2;

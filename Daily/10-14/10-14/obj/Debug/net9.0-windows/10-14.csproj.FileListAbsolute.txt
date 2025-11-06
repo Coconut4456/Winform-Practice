@@ -28,3 +28,33 @@ C:\.project\C-Sharp-Practice\Daily\10-14\10-14\obj\Debug\net9.0-windows\refint\1
 C:\.project\C-Sharp-Practice\Daily\10-14\10-14\obj\Debug\net9.0-windows\10-14.pdb
 C:\.project\C-Sharp-Practice\Daily\10-14\10-14\obj\Debug\net9.0-windows\10-14.genruntimeconfig.cache
 C:\.project\C-Sharp-Practice\Daily\10-14\10-14\obj\Debug\net9.0-windows\ref\10-14.dll
+Y:\새 폴더\Winform-Practice\Daily\10-14\10-14\obj\Debug\net9.0-windows\10-14.GeneratedMSBuildEditorConfig.editorconfig
+Y:\새 폴더\Winform-Practice\Daily\10-14\10-14\obj\Debug\net9.0-windows\10-14.AssemblyInfoInputs.cache
+Y:\새 폴더\Winform-Practice\Daily\10-14\10-14\obj\Debug\net9.0-windows\10-14.AssemblyInfo.cs
+Y:\새 폴더\Winform-Practice\Daily\10-14\10-14\obj\Debug\net9.0-windows\10-14.csproj.CoreCompileInputs.cache
+Y:\새 폴더\Winform-Practice\Daily\10-14\10-14\obj\Debug\net9.0-windows\10-14.sourcelink.json
+Y:\새 폴더\Winform-Practice\Daily\10-14\10-14\obj\Debug\net9.0-windows\10-14.dll
+Y:\새 폴더\Winform-Practice\Daily\10-14\10-14\obj\Debug\net9.0-windows\refint\10-14.dll
+Y:\새 폴더\Winform-Practice\Daily\10-14\10-14\obj\Debug\net9.0-windows\10-14.pdb
+Y:\새 폴더\Winform-Practice\Daily\10-14\10-14\bin\Debug\net9.0-windows\10-14.exe
+Y:\새 폴더\Winform-Practice\Daily\10-14\10-14\bin\Debug\net9.0-windows\10-14.deps.json
+Y:\새 폴더\Winform-Practice\Daily\10-14\10-14\bin\Debug\net9.0-windows\10-14.runtimeconfig.json
+Y:\새 폴더\Winform-Practice\Daily\10-14\10-14\bin\Debug\net9.0-windows\10-14.dll
+Y:\새 폴더\Winform-Practice\Daily\10-14\10-14\bin\Debug\net9.0-windows\10-14.pdb
+Y:\새 폴더\Winform-Practice\Daily\10-14\10-14\obj\Debug\net9.0-windows\10-14.genruntimeconfig.cache
+Y:\새 폴더\Winform-Practice\Daily\10-14\10-14\obj\Debug\net9.0-windows\ref\10-14.dll
+C:\Winform-Practice\Daily\10-14\10-14\bin\Debug\net9.0-windows\10-14.exe
+C:\Winform-Practice\Daily\10-14\10-14\bin\Debug\net9.0-windows\10-14.deps.json
+C:\Winform-Practice\Daily\10-14\10-14\bin\Debug\net9.0-windows\10-14.runtimeconfig.json
+C:\Winform-Practice\Daily\10-14\10-14\bin\Debug\net9.0-windows\10-14.dll
+C:\Winform-Practice\Daily\10-14\10-14\bin\Debug\net9.0-windows\10-14.pdb
+C:\Winform-Practice\Daily\10-14\10-14\obj\Debug\net9.0-windows\10-14.GeneratedMSBuildEditorConfig.editorconfig
+C:\Winform-Practice\Daily\10-14\10-14\obj\Debug\net9.0-windows\10-14.AssemblyInfoInputs.cache
+C:\Winform-Practice\Daily\10-14\10-14\obj\Debug\net9.0-windows\10-14.AssemblyInfo.cs
+C:\Winform-Practice\Daily\10-14\10-14\obj\Debug\net9.0-windows\10-14.csproj.CoreCompileInputs.cache
+C:\Winform-Practice\Daily\10-14\10-14\obj\Debug\net9.0-windows\10-14.sourcelink.json
+C:\Winform-Practice\Daily\10-14\10-14\obj\Debug\net9.0-windows\10-14.dll
+C:\Winform-Practice\Daily\10-14\10-14\obj\Debug\net9.0-windows\refint\10-14.dll
+C:\Winform-Practice\Daily\10-14\10-14\obj\Debug\net9.0-windows\10-14.pdb
+C:\Winform-Practice\Daily\10-14\10-14\obj\Debug\net9.0-windows\10-14.genruntimeconfig.cache
+C:\Winform-Practice\Daily\10-14\10-14\obj\Debug\net9.0-windows\ref\10-14.dll
